@@ -11,7 +11,6 @@ import {
   IconFileWord,
   IconFolder,
   IconHelp,
-  IconInnerShadowTop,
   IconListDetails,
   IconReport,
   IconSearch,
@@ -19,29 +18,20 @@ import {
   IconUsers,
 } from "@tabler/icons-react"
 
-import { NavDocuments } from "@/components/nav-documents"
-import { NavMain } from "@/components/nav-main"
-import { NavSecondary } from "@/components/nav-secondary"
-import { NavUser } from "@/components/nav-user"
 import {
   Sidebar,
   SidebarContent,
-  SidebarFooter,
   SidebarHeader,
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
 } from "@/components/ui/sidebar"
-import Image from "next/image";
-import {AspectRatio} from "@/components/ui/aspect-ratio";
 import {Separator} from "@/components/ui/separator";
+import SidebarNavMain from "@/components/LayoutHOC/SidebarNavMain";
+import SidebarNavDocuments from "@/components/LayoutHOC/SidebarNavDocuments";
+import SidebarNavSecondary from "@/components/LayoutHOC/SidebarNavSecondary";
 
 const data = {
-  user: {
-    name: "shadcn",
-    email: "m@example.com",
-    avatar: "/avatars/shadcn.jpg",
-  },
   navMain: [
     {
       title: "Dashboard",
@@ -177,13 +167,10 @@ const AppSidebar = ({
       </SidebarHeader>
       <Separator />
       <SidebarContent>
-        <NavMain items={data.navMain} />
-        <NavDocuments items={data.documents} />
-        <NavSecondary items={data.navSecondary} className="mt-auto" />
+        <SidebarNavMain items={data.navMain} />
+        <SidebarNavDocuments items={data.documents} />
+        <SidebarNavSecondary items={data.navSecondary} className="mt-auto" />
       </SidebarContent>
-      <SidebarFooter>
-        <NavUser user={data.user} />
-      </SidebarFooter>
     </Sidebar>
   );
 }
