@@ -1,15 +1,15 @@
 "use client"
 
-import { IconCirclePlusFilled, IconMail } from "@tabler/icons-react";
-
-import { Button } from "@/components/ui/button"
 import {
-  SidebarGroup,
-  SidebarGroupContent,
-  SidebarMenu,
-  SidebarMenuButton,
-  SidebarMenuItem,
+    SidebarGroup,
+    SidebarGroupContent,
+    SidebarMenu,
+    SidebarMenuButton,
+    SidebarMenuSub, SidebarMenuSubButton, SidebarMenuSubItem,
 } from "@/components/ui/sidebar"
+import {Collapsible, CollapsibleContent, CollapsibleTrigger} from "@/components/ui/collapsible";
+import {IconBoxMultiple, IconStackFront} from "@tabler/icons-react";
+import {DotIcon} from "lucide-react";
 
 const SidebarNavMain = ({
   items
@@ -18,31 +18,27 @@ const SidebarNavMain = ({
     <SidebarGroup>
       <SidebarGroupContent className="flex flex-col gap-2">
         <SidebarMenu>
-          <SidebarMenuItem className="flex items-center gap-2">
-            <SidebarMenuButton
-              tooltip="Quick Create"
-              className="bg-primary text-primary-foreground hover:bg-primary/90 hover:text-primary-foreground active:bg-primary/90 active:text-primary-foreground min-w-8 duration-200 ease-linear">
-              <IconCirclePlusFilled />
-              <span>Quick Create</span>
-            </SidebarMenuButton>
-            <Button
-              size="icon"
-              className="size-8 group-data-[collapsible=icon]:opacity-0"
-              variant="outline">
-              <IconMail />
-              <span className="sr-only">Inbox</span>
-            </Button>
-          </SidebarMenuItem>
-        </SidebarMenu>
-        <SidebarMenu>
+            <Collapsible defaultOpen className="group/collapsible">
+                <CollapsibleTrigger asChild>
+                    <SidebarMenuButton>
+                        <IconStackFront />
+                        <span className="font-bold">Kategoritë</span>
+                    </SidebarMenuButton>
+                </CollapsibleTrigger>
+                <CollapsibleContent>
+                    <SidebarMenuSub>
           {items.map((item) => (
-            <SidebarMenuItem key={item.title}>
-              <SidebarMenuButton tooltip={item.title}>
-                {item.icon && <item.icon />}
+            <SidebarMenuSubItem key={item.title}>
+              <SidebarMenuSubButton tooltip={item.title}>
+                  <DotIcon />
                 <span>{item.title}</span>
-              </SidebarMenuButton>
-            </SidebarMenuItem>
+              </SidebarMenuSubButton>
+            </SidebarMenuSubItem>
           ))}
+                    </SidebarMenuSub>
+                </CollapsibleContent>
+            </Collapsible>
+
         </SidebarMenu>
       </SidebarGroupContent>
     </SidebarGroup>

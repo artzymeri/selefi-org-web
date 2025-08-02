@@ -20,7 +20,7 @@ import {
 
 import {
   Sidebar,
-  SidebarContent,
+  SidebarContent, SidebarFooter,
   SidebarHeader,
   SidebarMenu,
   SidebarMenuButton,
@@ -34,27 +34,117 @@ import SidebarNavSecondary from "@/components/LayoutHOC/SidebarNavSecondary";
 const data = {
   navMain: [
     {
-      title: "Dashboard",
+      title: "Akideh",
       url: "#",
       icon: IconDashboard,
     },
     {
-      title: "Lifecycle",
+      title: "Menhexh",
       url: "#",
       icon: IconListDetails,
     },
     {
-      title: "Analytics",
+      title: "Kuran",
       url: "#",
       icon: IconChartBar,
     },
     {
-      title: "Projects",
+      title: "Hadith",
       url: "#",
       icon: IconFolder,
     },
     {
-      title: "Team",
+      title: "Fikh",
+      url: "#",
+      icon: IconUsers,
+    },
+    {
+      title: "Etikë",
+      url: "#",
+      icon: IconUsers,
+    },
+    {
+      title: "Daue",
+      url: "#",
+      icon: IconUsers,
+    },
+    {
+      title: "Dituria",
+      url: "#",
+      icon: IconUsers,
+    },
+    {
+      title: "Sira",
+      url: "#",
+      icon: IconUsers,
+    },
+    {
+      title: "Sahabët",
+      url: "#",
+      icon: IconUsers,
+    },
+    {
+      title: "Dijetarët",
+      url: "#",
+      icon: IconUsers,
+    },
+    {
+      title: "Motrat",
+      url: "#",
+      icon: IconUsers,
+    },
+    {
+      title: "Refuzime",
+      url: "#",
+      icon: IconUsers,
+    },
+    {
+      title: "Bidat",
+      url: "#",
+      icon: IconUsers,
+    },
+    {
+      title: "Sektet",
+      url: "#",
+      icon: IconUsers,
+    },
+    {
+      title: "Histori",
+      url: "#",
+      icon: IconUsers,
+    },
+    {
+      title: "Muaji i Ramazanit",
+      url: "#",
+      icon: IconUsers,
+    },
+    {
+      title: "Shoqatat",
+      url: "#",
+      icon: IconUsers,
+    },
+    {
+      title: "Politikë",
+      url: "#",
+      icon: IconUsers,
+    },
+    {
+      title: "Demonstratat",
+      url: "#",
+      icon: IconUsers,
+    },
+    {
+      title: "Aktualitet",
+      url: "#",
+      icon: IconUsers,
+    },
+    {
+      title: "Fetua rreth Mjekësisë",
+      url: "#",
+      icon: IconUsers,
+    },
+    {
+      title: "Rreth Teorive Shkencore",
       url: "#",
       icon: IconUsers,
     },
@@ -168,9 +258,10 @@ const AppSidebar = ({
       <Separator />
       <SidebarContent>
         <SidebarNavMain items={data.navMain} />
-        <SidebarNavDocuments items={data.documents} />
-        <SidebarNavSecondary items={data.navSecondary} className="mt-auto" />
       </SidebarContent>
+      <SidebarFooter>
+        <SidebarNavSecondary items={data.navSecondary} className="mt-auto" />
+      </SidebarFooter>
     </Sidebar>
   );
 }
