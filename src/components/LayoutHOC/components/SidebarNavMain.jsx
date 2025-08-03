@@ -8,7 +8,7 @@ import {
     SidebarMenuSub, SidebarMenuSubButton, SidebarMenuSubItem,
 } from "@/components/ui/sidebar"
 import {Collapsible, CollapsibleContent, CollapsibleTrigger} from "@/components/ui/collapsible";
-import {IconBoxMultiple, IconStackFront} from "@tabler/icons-react";
+import {IconStackFront} from "@tabler/icons-react";
 import {DotIcon} from "lucide-react";
 
 const SidebarNavMain = ({
@@ -30,7 +30,7 @@ const SidebarNavMain = ({
           {items.map((item) => (
             <SidebarMenuSubItem key={item.title}>
               <SidebarMenuSubButton tooltip={item.title}>
-                  <DotIcon />
+                  {item.icon}
                 <span>{item.title}</span>
               </SidebarMenuSubButton>
             </SidebarMenuSubItem>

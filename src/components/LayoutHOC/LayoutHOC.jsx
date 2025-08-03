@@ -1,12 +1,12 @@
-import { SiteHeader } from "@/components/site-header";
 import {
     SidebarInset,
     SidebarProvider,
 } from "@/components/ui/sidebar";
-import AppSidebar from "@/components/LayoutHOC/AppSidebar";
+import AppSidebar from "@/components/LayoutHOC/components/AppSidebar";
+import {SiteHeader} from "@/components/LayoutHOC/components/SiteHeader";
 
 
-const LayoutHOC = ({children}) => {
+const LayoutHOC = ({children, title, className = 'p-6'}) => {
     return (
         <SidebarProvider
             style={{
@@ -16,8 +16,10 @@ const LayoutHOC = ({children}) => {
         >
             <AppSidebar variant="inset" />
             <SidebarInset>
-                <SiteHeader />
-                {children}
+                <SiteHeader title={title} />
+                <div className={className}>
+                    {children}
+                </div>
             </SidebarInset>
         </SidebarProvider>
     );
