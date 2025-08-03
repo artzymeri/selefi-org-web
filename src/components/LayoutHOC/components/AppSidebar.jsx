@@ -1,254 +1,268 @@
-"use client"
+'use client';
 
-import * as React from "react"
+import * as React from 'react';
 import {
   IconAccessPoint,
-  IconBallpen, IconBan,
+  IconBallpen,
+  IconBan,
   IconBook2,
-  IconBooks, IconBuildingBurjAlArab, IconBuildingOff,
+  IconBooks,
+  IconBuildingBurjAlArab,
+  IconBuildingOff,
   IconCamera,
   IconChartBar,
   IconDashboard,
-  IconDatabase, IconFeatherFilled,
+  IconDatabase,
+  IconFeatherFilled,
   IconFileAi,
   IconFileDescription,
   IconFileWord,
-  IconFolder, IconGraph,
-  IconHelp, IconLicense,
-  IconListDetails, IconPageBreak, IconPlanet,
+  IconFolder,
+  IconGraph,
+  IconHelp,
+  IconLicense,
+  IconListDetails,
+  IconPageBreak,
+  IconPlanet,
   IconReport,
   IconSearch,
   IconSettings,
-  IconUsers, IconUsersGroup,
-} from "@tabler/icons-react"
+  IconUsers,
+  IconUsersGroup,
+} from '@tabler/icons-react';
 
 import {
   Sidebar,
-  SidebarContent, SidebarFooter,
+  SidebarContent,
+  SidebarFooter,
   SidebarHeader,
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
-} from "@/components/ui/sidebar"
-import {Separator} from "@/components/ui/separator";
-import SidebarNavMain from "@/components/LayoutHOC/components/SidebarNavMain";
-import SidebarNavSecondary from "@/components/LayoutHOC/components/SidebarNavSecondary";
-import HijabIconFilled from "@/assets/icons/HijabIconFilled";
-import RamadanMonthIconFilled from "@/assets/icons/RamadanMonthIconFilled";
-import {ActivityIcon, HistoryIcon, MessageSquare, SparklesIcon, Users2Icon} from "lucide-react";
-import QuranInline from "@/assets/icons/QuranIconInline";
-import SalutationsIcon from "@/assets/icons/SalutationsIcon";
-import TheProphetsNameIcon from "@/assets/icons/TheProphetsNameIcon";
-import RadijAllahuAnhuIcon from "@/assets/icons/RadijAllahuAnhuIcon";
-import FireIcon from "@/assets/icons/FireIcon";
-import SectsIcon from "@/assets/icons/SectsIcon";
-import ScholarIcon from "@/assets/icons/ScholarIcon";
+} from '@/components/ui/sidebar';
+import { Separator } from '@/components/ui/separator';
+import SidebarNavMain from '@/components/LayoutHOC/components/SidebarNavMain';
+import SidebarNavSecondary from '@/components/LayoutHOC/components/SidebarNavSecondary';
+import HijabIconFilled from '@/assets/icons/HijabIconFilled';
+import RamadanMonthIconFilled from '@/assets/icons/RamadanMonthIconFilled';
+import {
+  ActivityIcon,
+  HistoryIcon,
+  MessageSquare,
+  SparklesIcon,
+  Users2Icon,
+} from 'lucide-react';
+import QuranInline from '@/assets/icons/QuranIconInline';
+import SalutationsIcon from '@/assets/icons/SalutationsIcon';
+import TheProphetsNameIcon from '@/assets/icons/TheProphetsNameIcon';
+import RadijAllahuAnhuIcon from '@/assets/icons/RadijAllahuAnhuIcon';
+import FireIcon from '@/assets/icons/FireIcon';
+import SectsIcon from '@/assets/icons/SectsIcon';
+import ScholarIcon from '@/assets/icons/ScholarIcon';
 
 const data = {
   navMain: [
     {
-      title: "Akideh",
-      url: "#",
+      title: 'Akideh',
+      url: '#',
       icon: <IconBook2 />,
     },
     {
-      title: "Menhexh",
-      url: "#",
+      title: 'Menhexh',
+      url: '#',
       icon: <IconFeatherFilled />,
     },
     {
-      title: "Kuran",
-      url: "#",
+      title: 'Kuran',
+      url: '#',
       icon: <QuranInline />,
     },
     {
-      title: "Hadith",
-      url: "#",
+      title: 'Hadith',
+      url: '#',
       icon: <SalutationsIcon />,
     },
     {
-      title: "Fikh",
-      url: "#",
+      title: 'Fikh',
+      url: '#',
       icon: <IconLicense />,
     },
     {
-      title: "Etikë",
-      url: "#",
+      title: 'Etikë',
+      url: '#',
       icon: <SparklesIcon />,
     },
     {
-      title: "Daueh",
-      url: "#",
+      title: 'Daueh',
+      url: '#',
       icon: <MessageSquare />,
     },
     {
-      title: "Dituria",
-      url: "#",
+      title: 'Dituria',
+      url: '#',
       icon: <IconBooks />,
     },
     {
-      title: "Sira",
-      url: "#",
+      title: 'Sira',
+      url: '#',
       icon: <TheProphetsNameIcon />,
     },
     {
-      title: "Sahabët",
-      url: "#",
+      title: 'Sahabët',
+      url: '#',
       icon: <RadijAllahuAnhuIcon />,
     },
     {
-      title: "Dijetarët",
-      url: "#",
+      title: 'Dijetarët',
+      url: '#',
       icon: <ScholarIcon />,
     },
     {
-      title: "Motrat",
-      url: "#",
+      title: 'Motrat',
+      url: '#',
       icon: <HijabIconFilled />,
     },
     {
-      title: "Refuzime",
-      url: "#",
+      title: 'Refuzime',
+      url: '#',
       icon: <IconBan />,
     },
     {
-      title: "Bidat",
-      url: "#",
+      title: 'Bidat',
+      url: '#',
       icon: <FireIcon />,
     },
     {
-      title: "Sektet",
-      url: "#",
+      title: 'Sektet',
+      url: '#',
       icon: <IconUsersGroup />,
     },
     {
-      title: "Histori",
-      url: "#",
+      title: 'Histori',
+      url: '#',
       icon: <HistoryIcon />,
     },
     {
-      title: "Muaji i Ramazanit",
-      url: "#",
+      title: 'Muaji i Ramazanit',
+      url: '#',
       icon: <RamadanMonthIconFilled />,
     },
     {
-      title: "Shoqatat",
-      url: "#",
+      title: 'Shoqatat',
+      url: '#',
       icon: <IconUsers />,
     },
     {
-      title: "Politikë",
-      url: "#",
+      title: 'Politikë',
+      url: '#',
       icon: <IconGraph />,
     },
     {
-      title: "Demonstratat",
-      url: "#",
+      title: 'Demonstratat',
+      url: '#',
       icon: <IconBuildingOff />,
     },
     {
-      title: "Aktualitet",
-      url: "#",
+      title: 'Aktualitet',
+      url: '#',
       icon: <IconAccessPoint />,
     },
     {
-      title: "Fetua rreth Mjekësisë",
-      url: "#",
+      title: 'Fetua rreth Mjekësisë',
+      url: '#',
       icon: <ActivityIcon />,
     },
     {
-      title: "Rreth Teorive Shkencore",
-      url: "#",
+      title: 'Rreth Teorive Shkencore',
+      url: '#',
       icon: <IconPlanet />,
     },
   ],
   navClouds: [
     {
-      title: "Capture",
+      title: 'Capture',
       icon: IconCamera,
       isActive: true,
-      url: "#",
+      url: '#',
       items: [
         {
-          title: "Active Proposals",
-          url: "#",
+          title: 'Active Proposals',
+          url: '#',
         },
         {
-          title: "Archived",
-          url: "#",
+          title: 'Archived',
+          url: '#',
         },
       ],
     },
     {
-      title: "Proposal",
+      title: 'Proposal',
       icon: IconFileDescription,
-      url: "#",
+      url: '#',
       items: [
         {
-          title: "Active Proposals",
-          url: "#",
+          title: 'Active Proposals',
+          url: '#',
         },
         {
-          title: "Archived",
-          url: "#",
+          title: 'Archived',
+          url: '#',
         },
       ],
     },
     {
-      title: "Prompts",
+      title: 'Prompts',
       icon: IconFileAi,
-      url: "#",
+      url: '#',
       items: [
         {
-          title: "Active Proposals",
-          url: "#",
+          title: 'Active Proposals',
+          url: '#',
         },
         {
-          title: "Archived",
-          url: "#",
+          title: 'Archived',
+          url: '#',
         },
       ],
     },
   ],
   navSecondary: [
     {
-      title: "Settings",
-      url: "#",
+      title: 'Settings',
+      url: '#',
       icon: IconSettings,
     },
     {
-      title: "Get Help",
-      url: "#",
+      title: 'Get Help',
+      url: '#',
       icon: IconHelp,
     },
     {
-      title: "Search",
-      url: "#",
+      title: 'Search',
+      url: '#',
       icon: IconSearch,
     },
   ],
   documents: [
     {
-      name: "Data Library",
-      url: "#",
+      name: 'Data Library',
+      url: '#',
       icon: IconDatabase,
     },
     {
-      name: "Reports",
-      url: "#",
+      name: 'Reports',
+      url: '#',
       icon: IconReport,
     },
     {
-      name: "Word Assistant",
-      url: "#",
+      name: 'Word Assistant',
+      url: '#',
       icon: IconFileWord,
     },
   ],
-}
+};
 
-const AppSidebar = ({
-  ...props
-}) => {
+const AppSidebar = ({ ...props }) => {
   return (
     <Sidebar collapsible="offcanvas" {...props}>
       <SidebarHeader>
@@ -256,13 +270,15 @@ const AppSidebar = ({
           <SidebarMenuItem>
             <SidebarMenuButton asChild className="flex items-center">
               <a href="#">
-                  <img
-                      className="h-16 invert aspect-square"
-                      src="/selefi-org-transparent-mono.png"
-                      alt="Selefi.org"
-                  />
+                <img
+                  className="h-16 invert aspect-square"
+                  src="/selefi-org-transparent-mono.png"
+                  alt="Selefi.org"
+                />
                 <Separator orientation="vertical" />
-                <p className="text-muted-foreground text-center text-xs">Lidhja juaj me dijetarët e sunnetit.</p>
+                <p className="text-muted-foreground text-center text-xs">
+                  Lidhja juaj me dijetarët e sunnetit.
+                </p>
               </a>
             </SidebarMenuButton>
           </SidebarMenuItem>
@@ -277,6 +293,6 @@ const AppSidebar = ({
       </SidebarFooter>
     </Sidebar>
   );
-}
+};
 
 export default AppSidebar;

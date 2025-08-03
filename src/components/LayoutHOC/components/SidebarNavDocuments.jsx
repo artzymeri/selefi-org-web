@@ -1,6 +1,11 @@
-"use client"
+'use client';
 
-import { IconDots, IconFolder, IconShare3, IconTrash } from "@tabler/icons-react";
+import {
+  IconDots,
+  IconFolder,
+  IconShare3,
+  IconTrash,
+} from '@tabler/icons-react';
 
 import {
   DropdownMenu,
@@ -8,7 +13,7 @@ import {
   DropdownMenuItem,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
+} from '@/components/ui/dropdown-menu';
 import {
   SidebarGroup,
   SidebarGroupLabel,
@@ -17,12 +22,10 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
   useSidebar,
-} from "@/components/ui/sidebar"
+} from '@/components/ui/sidebar';
 
-const SidebarNavDocuments = ({
-  items
-}) => {
-  const { isMobile } = useSidebar()
+const SidebarNavDocuments = ({ items }) => {
+  const { isMobile } = useSidebar();
 
   return (
     <SidebarGroup className="group-data-[collapsible=icon]:hidden">
@@ -38,15 +41,19 @@ const SidebarNavDocuments = ({
             </SidebarMenuButton>
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
-                <SidebarMenuAction showOnHover className="data-[state=open]:bg-accent rounded-sm">
+                <SidebarMenuAction
+                  showOnHover
+                  className="data-[state=open]:bg-accent rounded-sm"
+                >
                   <IconDots />
                   <span className="sr-only">More</span>
                 </SidebarMenuAction>
               </DropdownMenuTrigger>
               <DropdownMenuContent
                 className="w-24 rounded-lg"
-                side={isMobile ? "bottom" : "right"}
-                align={isMobile ? "end" : "start"}>
+                side={isMobile ? 'bottom' : 'right'}
+                align={isMobile ? 'end' : 'start'}
+              >
                 <DropdownMenuItem>
                   <IconFolder />
                   <span>Open</span>
@@ -73,6 +80,6 @@ const SidebarNavDocuments = ({
       </SidebarMenu>
     </SidebarGroup>
   );
-}
+};
 
 export default SidebarNavDocuments;

@@ -5,40 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="400a71d3-4b1a-4fa0-b843-15281bf45e0d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/ballina.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/FireIcon.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/HijabIconFilled.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/QuranIconInline.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/RadijAllahuAnhuIcon.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/RamadanMonthIconFilled.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/SalutationsIcon.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/ScholarIcon.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/SectsIcon.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/TheProphetsNameIcon.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/svgs/hijab.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HomePage/HeroSection.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/LayoutHOC/components/site-header-components/LinkButton.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/LayoutHOC/components/site-header-components/LinkButtons.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/dashboard/data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/dashboard/page.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LayoutHOC/AppSidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LayoutHOC/components/AppSidebar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LayoutHOC/LayoutHOC.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LayoutHOC/LayoutHOC.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LayoutHOC/LayoutSidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LayoutHOC/components/LayoutSidebar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LayoutHOC/SidebarNavDocuments.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LayoutHOC/components/SidebarNavDocuments.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LayoutHOC/SidebarNavMain.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LayoutHOC/components/SidebarNavMain.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LayoutHOC/SidebarNavSecondary.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LayoutHOC/components/SidebarNavSecondary.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/app-sidebar.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/chart-area-interactive.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/data-table.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav-documents.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav-main.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav-secondary.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav-user.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/section-cards.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/site-header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LayoutHOC/components/SiteHeader.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ui/button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/button.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +61,8 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "prettierjs.PrettierConfiguration.Package": "/Users/artz./Desktop/Private/selefi-org-web/node_modules/prettier",
+    "settings.editor.selected.configurable": "settings.javascript.prettier",
     "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
@@ -119,7 +92,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1754125929522</updated>
-      <workItem from="1754125930579" duration="17132000" />
+      <workItem from="1754125930579" duration="17498000" />
     </task>
     <servers />
   </component>
