@@ -17,7 +17,7 @@ import {
 import { IconStackFront } from '@tabler/icons-react';
 import { DotIcon } from 'lucide-react';
 
-const SidebarNavMain = ({ items }) => {
+const SidebarCategories = ({ items }) => {
   return (
     <SidebarGroup>
       <SidebarGroupContent className="flex flex-col gap-2">
@@ -48,4 +48,4 @@ const SidebarNavMain = ({ items }) => {
   );
 };
 
-export default SidebarNavMain;
+export default SidebarCategories;

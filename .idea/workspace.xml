@@ -5,7 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="400a71d3-4b1a-4fa0-b843-15281bf45e0d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/public/baslamah.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/baslamah.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/Providers/ThemeProvider/ThemeProvider.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/LayoutHOC/components/sidebar-components/ModeToggle.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/LayoutHOC/components/sidebar-components/SidebarItems.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/LayoutHOC/components/site-header-components/HeaderSearch.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icons/HijabIconFilled.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/icons/HijabIconFilled.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icons/QuranIconInline.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/icons/QuranIconInline.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icons/RamadanMonthIconFilled.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/icons/RamadanMonthIconFilled.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HomePage/Basmalah.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomePage/Basmalah.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LayoutHOC/components/AppSidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LayoutHOC/components/AppSidebar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LayoutHOC/components/SidebarNavDocuments.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LayoutHOC/components/SidebarNavMain.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LayoutHOC/components/sidebar-components/SidebarCategories.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LayoutHOC/components/SidebarNavSecondary.jsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/LayoutHOC/components/SiteHeader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LayoutHOC/components/SiteHeader.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,6 +85,7 @@
       <recent name="$PROJECT_DIR$/src/assets/images/png" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/LayoutHOC/components/sidebar-components" />
       <recent name="$PROJECT_DIR$/src/components/LayoutHOC/components" />
     </key>
   </component>
@@ -89,7 +103,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1754125929522</updated>
-      <workItem from="1754125930579" duration="18170000" />
+      <workItem from="1754125930579" duration="19537000" />
     </task>
     <servers />
   </component>

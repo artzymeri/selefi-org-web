@@ -1,5 +1,6 @@
 import '@/app/globals.css';
 import Head from 'next/head';
+import { ThemeProvider } from '@/app/Providers/ThemeProvider/ThemeProvider';
 
 export default function App({ Component, pageProps }) {
   return (
@@ -28,7 +29,15 @@ export default function App({ Component, pageProps }) {
           content="/selefi-org-circle-transparent-navy.png"
         />
       </Head>
-      <Component {...pageProps} />
+
+      <ThemeProvider
+        attribute="class"
+        defaultTheme="system"
+        enableSystem
+        disableTransitionOnChange
+      >
+        <Component {...pageProps} />
+      </ThemeProvider>
     </>
   );
 }
