@@ -5,10 +5,6 @@ import {
   Sidebar,
   SidebarContent,
   SidebarFooter,
-  SidebarHeader,
-  SidebarMenu,
-  SidebarMenuButton,
-  SidebarMenuItem,
 } from '@/components/ui/sidebar';
 import { Separator } from '@/components/ui/separator';
 import SidebarCategories from '@/components/LayoutHOC/components/sidebar-components/SidebarCategories';
