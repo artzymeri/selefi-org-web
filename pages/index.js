@@ -3,6 +3,7 @@ import HeroSection from '@/components/HomePage/HeroSection';
 import Baslamah from '@/components/HomePage/Basmalah';
 import LatestArticles from '@/components/HomePage/LatestArticles';
 import { Separator } from '@/components/ui/separator';
+import PublishedBooks from '@/components/HomePage/PublishedBooks';
 
 export default function Home() {
   return (
@@ -11,6 +12,9 @@ export default function Home() {
       <HeroSection srcImage="/ballina.png" altText="Ballina" />
       <Separator className="mb-6 mt-12" />
       <LatestArticles />
+      <Separator className="mb-6 mt-12" />
+      <PublishedBooks />
+      <Separator className="mb-6 mt-16" />
     </LayoutHOC>
   );
 }

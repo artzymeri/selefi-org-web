@@ -33,7 +33,7 @@ const mockPublishedBooks = [
   {
     id: 7,
     title: 'Obligimi i faljes se namazit me përpikmëri dhe me xhematë',
-    src: 'obligimi-i-faljes-se-namazit-me-perpikmeri-dhe-me-xhemat.png',
+    src: 'obligimi-i-fales-se-namazit-me-perpikmeri-dhe-me-xhemat.png',
   },
   {
     id: 8,
