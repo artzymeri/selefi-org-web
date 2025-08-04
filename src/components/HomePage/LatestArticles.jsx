@@ -1,4 +1,4 @@
-import { IconDots, IconWriting } from '@tabler/icons-react';
+import { IconDots } from '@tabler/icons-react';
 import LatestArticleItem from '@/components/HomePage/LatestArticleItem';
 import mockArticles from '@/mock-data/mockArticles';
 
