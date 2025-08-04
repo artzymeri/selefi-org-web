@@ -7,6 +7,7 @@ import {
   CarouselPrevious,
 } from '@/components/ui/carousel';
 import mockPublishedBooks from '@/mock-data/mockPublishedBooks';
+import Autoplay from 'embla-carousel-autoplay';
 
 const PublishedBooks = () => {
   return (
@@ -20,13 +21,18 @@ const PublishedBooks = () => {
           align: 'start',
         }}
         className="w-full"
+        plugins={[
+          Autoplay({
+            delay: 2000,
+          }),
+        ]}
       >
         <CarouselContent>
           {mockPublishedBooks.map((book) => {
             return (
               <CarouselItem
                 key={book.id}
-                className="pl-3 md:basis-1/3 lg:basis-1/4 rounded-lg border border-muted"
+                className="pl-3 md:basis-1/3 lg:basis-1/4 rounded-lg"
               >
                 <img
                   width="100%"
