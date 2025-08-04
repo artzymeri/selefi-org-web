@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="400a71d3-4b1a-4fa0-b843-15281bf45e0d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/LayoutHOC/components/sidebar-components/AppSidebarFooter.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LayoutHOC/components/AppSidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LayoutHOC/components/AppSidebar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ui/sidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/sidebar.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HomePage/LatestArticles.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HomePage/HeroSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomePage/HeroSection.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LayoutHOC/components/LayoutSidebar.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LayoutHOC/components/SiteHeader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LayoutHOC/components/SiteHeader.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +94,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1754125929522</updated>
-      <workItem from="1754125930579" duration="19863000" />
+      <workItem from="1754125930579" duration="22781000" />
     </task>
     <servers />
   </component>
