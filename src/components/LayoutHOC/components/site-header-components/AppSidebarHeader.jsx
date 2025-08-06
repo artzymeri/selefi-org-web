@@ -13,7 +13,7 @@ const AppSidebarHeader = () => {
       <SidebarMenu>
         <SidebarMenuItem>
           <SidebarMenuButton asChild className="flex items-center">
-            <a href="#">
+            <a href="/">
               <img
                 className="h-16 dark:invert-0 invert aspect-square"
                 src="/selefi-org-transparent-mono.png"

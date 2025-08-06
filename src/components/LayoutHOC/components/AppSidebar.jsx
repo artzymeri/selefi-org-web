@@ -5,12 +5,16 @@ import {
   Sidebar,
   SidebarContent,
   SidebarFooter,
+  SidebarMenu,
+  SidebarMenuButton,
+  SidebarMenuItem,
 } from '@/components/ui/sidebar';
 import { Separator } from '@/components/ui/separator';
 import SidebarCategories from '@/components/LayoutHOC/components/sidebar-components/SidebarCategories';
 import ModeToggle from '@/components/LayoutHOC/components/sidebar-components/ModeToggle';
 import sidebarItems from '@/components/LayoutHOC/components/sidebar-components/SidebarItems';
 import AppSidebarHeader from '@/components/LayoutHOC/components/site-header-components/AppSidebarHeader';
+import { HomeIcon } from 'lucide-react';
 
 const AppSidebar = ({ ...props }) => {
   return (

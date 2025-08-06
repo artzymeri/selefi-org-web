@@ -5,12 +5,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="400a71d3-4b1a-4fa0-b843-15281bf45e0d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/HomePage/LatestArticles.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/akideh/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/aktualitet/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/bidat/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/daueh/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/demonstratat/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/dijetaret/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/dituria/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/etike/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/fetua-rreth-mjekesise/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/fikh/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/hadith/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/histori/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/kuran/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/menhexh/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/motrat/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/muaji-i-ramazanit/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/politike/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/refuzime/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/rreth-teorive-shkencore/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/sahabet/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/sektet/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/shoqatat/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/sira/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HomePage/HeroSection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomePage/HeroSection.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LayoutHOC/components/LayoutSidebar.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LayoutHOC/components/SiteHeader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LayoutHOC/components/SiteHeader.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LayoutHOC/components/AppSidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LayoutHOC/components/AppSidebar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LayoutHOC/components/sidebar-components/SidebarCategories.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LayoutHOC/components/sidebar-components/SidebarCategories.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LayoutHOC/components/sidebar-components/SidebarItems.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LayoutHOC/components/sidebar-components/SidebarItems.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LayoutHOC/components/site-header-components/AppSidebarHeader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LayoutHOC/components/site-header-components/AppSidebarHeader.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/sidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/sidebar.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,29 +43,29 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="JSX File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "artzymeri"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;artzymeri&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/artzymeri/selefi-org-web.git",
-    "accountId": "ea776717-bcaa-4809-b99d-6514716458ab"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/artzymeri/selefi-org-web.git&quot;,
+    &quot;accountId&quot;: &quot;ea776717-bcaa-4809-b99d-6514716458ab&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="30j0yahU9tWCVLczk3SlmNKdUXM" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -55,8 +78,11 @@
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/artz./Desktop/Private/selefi-org-web/public",
+    "js.debugger.nextJs.config.created.client": "true",
+    "js.debugger.nextJs.config.created.server": "true",
+    "last_opened_file_path": "/Users/artz./Desktop/Private/selefi-org-web/pages/sira",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -70,15 +96,32 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public" />
-      <recent name="$PROJECT_DIR$/src/assets/icons" />
-      <recent name="$PROJECT_DIR$/src/components/LayoutHOC" />
-      <recent name="$PROJECT_DIR$/src/assets/images/png" />
+      <recent name="$PROJECT_DIR$/pages/sira" />
+      <recent name="$PROJECT_DIR$/pages/shoqatat" />
+      <recent name="$PROJECT_DIR$/pages/sektet" />
+      <recent name="$PROJECT_DIR$/pages/sahabet" />
+      <recent name="$PROJECT_DIR$/pages/rreth-teorive-shkencore" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/components/LayoutHOC/components/sidebar-components" />
       <recent name="$PROJECT_DIR$/src/components/LayoutHOC/components" />
     </key>
+  </component>
+  <component name="RunManager" selected="npm.Next.js: server-side">
+    <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3333/">
+      <method v="2" />
+    </configuration>
+    <configuration name="Next.js: server-side" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -94,7 +137,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1754125929522</updated>
-      <workItem from="1754125930579" duration="22781000" />
+      <workItem from="1754125930579" duration="34471000" />
+      <workItem from="1754474953655" duration="3932000" />
     </task>
     <servers />
   </component>
