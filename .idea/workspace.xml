@@ -5,35 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="400a71d3-4b1a-4fa0-b843-15281bf45e0d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/akideh/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/aktualitet/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/bidat/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/daueh/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/demonstratat/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/dijetaret/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/dituria/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/etike/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/fetua-rreth-mjekesise/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/fikh/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/hadith/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/histori/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/kuran/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/menhexh/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/motrat/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/muaji-i-ramazanit/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/politike/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/refuzime/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/rreth-teorive-shkencore/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/sahabet/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/sektet/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/shoqatat/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/sira/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LayoutHOC/components/AppSidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LayoutHOC/components/AppSidebar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LayoutHOC/components/sidebar-components/SidebarCategories.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LayoutHOC/components/sidebar-components/SidebarCategories.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LayoutHOC/components/sidebar-components/SidebarItems.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LayoutHOC/components/sidebar-components/SidebarItems.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LayoutHOC/components/site-header-components/AppSidebarHeader.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LayoutHOC/components/site-header-components/AppSidebarHeader.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ui/sidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/sidebar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LayoutHOC/components/site-header-components/LinkButtons.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LayoutHOC/components/site-header-components/LinkButtons.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +111,7 @@
       <option name="presentableId" value="Default" />
       <updated>1754125929522</updated>
       <workItem from="1754125930579" duration="34471000" />
-      <workItem from="1754474953655" duration="3932000" />
+      <workItem from="1754474953655" duration="5417000" />
     </task>
     <servers />
   </component>
